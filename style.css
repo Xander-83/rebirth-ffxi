@@ -5,6 +5,8 @@
     justify-content: center;
     text-align: center;
     align-content: space-between;
+     background-color: white;
+  
 }
 
 .toplogo {
@@ -13,7 +15,20 @@
 
 .logo {
     padding-top: 75px;
+    
  
 }
 
+.jumbotron {
+    text-align: center;
  
+    margin: 50px;
+}
+
+body {
+    background-color: white;
+}
+
+ .nav-item {
+     color: red;
+ }
