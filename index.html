@@ -9,9 +9,7 @@
 </head>
 <body>
 
-    <div class="navbar flex-container">
-
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top .navbar-collapse">
         <img class="toplogo" href="http://rebirth-ffxi.com" src="images/rebirthbanner.png" />
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -21,19 +19,19 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Server Details</a>
+                <a class="nav-link" href="server.html">Server Details</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Getting Started</a>
+                <a class="nav-link" href="gettingstarted.html">Getting Started</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Setting Up Your Client</a>
+                <a class="nav-link" href="setup.html">Setting Up Your Client</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Rebirth Timeline</a>
+                <a class="nav-link" href="timeline.html">Rebirth Timeline</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -41,9 +39,9 @@
                     Endgame
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Dynamis</a>
-                    <a class="dropdown-item" href="#">Sky</a>
-                    <a class="dropdown-item" href="#">Sea</a>
+                            <a class="dropdown-item" href="dynamis.html">Dynamis</a>
+                            <a class="dropdown-item" href="sky.html">Sky</a>
+                            <a class="dropdown-item" href="sea.html">Sea</a>
                 </div>
             </li>
         </ul>
@@ -51,15 +49,26 @@
 </nav>
     </div></div>
 <br>
-<div class="img-container text-block">
+<div class="img-container">
     <img src="images/rebirthlogo.png" class="logo img-fluid" alt="Responsive image">
-    <h1 class="centered text-block ">Welcome to Rebirth FFXI Private Server</h1>
-    <h2 class="centeredScroll animate text-block"></h2>
+    <!--<h1 class="centered text-block ">Welcome to Rebirth FFXI Private Server</h1>
+    <class class="centeredScroll animate text-block"></class>
+    <section>
+            <div class="rw-words rw-words-1">
+                <span>spice</span>
+                <span>colors</span>
+                <span>happiness</span>
+                <span>wonder</span>
+                <span>sugar</span>
+                <span>happiness</span>
+            </div>
+        </h2>
+    </section></h2>-->
         </div>
-
- <br>
+<a>
+ 
 <div class="jumbotron">
-    <h1 class="display-6">Welcome to Rebirth-FFXI Private Server!</h1>
+    <h1 class="display-5">Welcome to Rebirth-FFXI Private Server!</h1>
     <p class="lead">Rebirth 2.0, formerly known as QuetzRebirth, strives to give players a great experience of the 75-cap days of FFXI. 
         At the same time our devs have customized the gameplay and continue to do so to find ways that will improve playability and decrease frustration, 
         while maintaining an authentic-feeling experience.
@@ -71,15 +80,14 @@
     </p>
     <a class="btn btn-danger btn-lg" href="#" role="button">Server Details</a>
 </div>
-
-
-
-
-</div>
  
 
 
-
-    <script src="script.js"></script>
+  <script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown()
+    });
+</script>
 </body>
 </html>
